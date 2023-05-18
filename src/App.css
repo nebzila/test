@@ -30,8 +30,35 @@
 h1 {
 	font-family: 'Baloo Thambi 2';
 }
+h4 {
+	font-family: 'Baloo Thambi 2';
+}
 #startButton {
 	height: 40px;
+	width: 220px;
+	margin: 30px 0px 30px 0px;
+}
+p {
+	font-family: 'Comfortaa';
+}
+.formButton {
+	border: solid black 3px;
+	border-radius: 20px;
+	background-color: white;
+	font-weight: bolder;
+	height: 30px;
+	font-family: 'Comfortaa';
+	width: 80%;
+}
+
+#result {
+	text-align: center;
+}
+
+.resultSlide {
+	background-color: white;
+	width: 50%;
+	height: 50%;
 }
 
 select {
@@ -40,6 +67,7 @@ select {
 	border: solid black 3px;
 	border-radius: 15px;
 	height: 30px;
+	text-align: center;
 }
 
 .button {
