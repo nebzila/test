@@ -48,7 +48,7 @@ export const SingleModal = () => {
 						<option>Ben</option>
 						<option>Nicole</option>
 					</select>
-					<h1>Select Animal</h1>
+					<h1 tabIndex={0}>Select Animal</h1>
 					<select
 						ref={SingleAnimalOption}
 						onChange={() => {
@@ -66,7 +66,7 @@ export const SingleModal = () => {
 						<option>chupacabra</option>
 					</select>
 
-					<h1>Select Description</h1>
+					<h1 tabIndex={0}>Select Description</h1>
 					<select
 						ref={SingleDescriptionOption}
 						onChange={() => {
@@ -80,7 +80,7 @@ export const SingleModal = () => {
 						<option>just awful</option>
 						<option>technically illegal</option>
 					</select>
-					<h1>Select Action</h1>
+					<h1 tabIndex={0}>Select Action</h1>
 					<select
 						ref={SingleActionOption}
 						onChange={() => {
@@ -93,7 +93,6 @@ export const SingleModal = () => {
 						<option>cause irreversible problems for all</option>
 						<option>bring a horrible smell</option>
 					</select>
-
 					<button
 						className='button'
 						onClick={() => {

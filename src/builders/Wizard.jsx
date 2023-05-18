@@ -179,7 +179,7 @@ export const Wizard = () => {
 					<select
 						ref={WizardActionOption}
 						onChange={() => {
-							setAction(WizardActionModal.current.value);
+							setAction(WizardActionOption.current.value);
 						}}
 					>
 						<option>Select</option>
@@ -223,7 +223,6 @@ export const Wizard = () => {
 						className='button'
 						onClick={() => {
 							WizardResultModal.current.close();
-
 							setPerson('');
 							setAnimal('');
 							setDescription('');

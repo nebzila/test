@@ -18,6 +18,8 @@ export const ButtonForm = () => {
 	return (
 		<>
 			<div
+				tabIndex={0}
+				aria-label='Button Form Box'
 				id='modal2'
 				style={{
 					height: '250px',
@@ -115,6 +117,7 @@ export const ButtonForm = () => {
 						<option>Ben</option>
 					</select>
 					<button
+						className='button'
 						onClick={() => {
 							FormPersonOption.current.selectedIndex = 0;
 							FormPersonModal.current.close();
@@ -153,6 +156,7 @@ export const ButtonForm = () => {
 						<option>chupacabra</option>
 					</select>
 					<button
+						className='button'
 						onClick={() => {
 							FormAnimalOption.current.selectedIndex = 0;
 							FormAnimalModal.current.close();
@@ -189,6 +193,7 @@ export const ButtonForm = () => {
 						<option>technically illegal</option>
 					</select>
 					<button
+						className='button'
 						onClick={() => {
 							FormDescriptionOption.current.selectedIndex = 0;
 							FormDescriptionModal.current.close();
@@ -224,6 +229,7 @@ export const ButtonForm = () => {
 						<option>bring a horrible smell</option>
 					</select>
 					<button
+						className='button'
 						onClick={() => {
 							FormActionOption.current.selectedIndex = 0;
 							FormActionModal.current.close();

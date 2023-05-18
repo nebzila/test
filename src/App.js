@@ -16,6 +16,7 @@ function App() {
 	return (
 		<>
 			<div
+				aria-label='Story Builder Test App'
 				style={{
 					display: 'flex',
 					justifyContent: 'center',
@@ -36,11 +37,11 @@ function App() {
 						alignItems: 'center',
 					}}
 				>
-					<h1>Alchemie Story Builder</h1>
-					<p style={{ width: '30%', textAlign: 'center' }}>
-						A small test app to experiment with modals and accessibilty. Create
-						a story by selecting options in the 'wizard', or complete the button
-						form.
+					<h1 tabIndex={1}>Alchemie Story Builder</h1>
+					<p tabIndex={0} style={{ width: '30%', textAlign: 'center' }}>
+						A small test app to experiment with modals and accessibility. Create
+						a story by selecting options in the 'wizard', by filling out the
+						single modal, or complete the button form.
 					</p>
 					<Wizard />
 					<SingleModal />
